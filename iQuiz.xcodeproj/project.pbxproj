@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0E147C2C1A3F0500D379E1 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0E147B2C1A3F0500D379E1 /* Questao.swift */; };
 		7C699CA62C160F90004091AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C699CA52C160F90004091AE /* AppDelegate.swift */; };
 		7C699CA82C160F90004091AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C699CA72C160F90004091AE /* SceneDelegate.swift */; };
 		7C699CAA2C160F90004091AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C699CA92C160F90004091AE /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0E147B2C1A3F0500D379E1 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
 		7C699CA22C160F90004091AE /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C699CA52C160F90004091AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C699CA72C160F90004091AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				7C699CB02C160F91004091AE /* LaunchScreen.storyboard */,
 				7C699CB32C160F91004091AE /* Info.plist */,
 				7C9A8FF62C1A269300F97C31 /* QuestaoViewController.swift */,
+				7C0E147B2C1A3F0500D379E1 /* Questao.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				7C699CAA2C160F90004091AE /* ViewController.swift in Sources */,
 				7C699CA62C160F90004091AE /* AppDelegate.swift in Sources */,
 				7C699CA82C160F90004091AE /* SceneDelegate.swift in Sources */,
+				7C0E147C2C1A3F0500D379E1 /* Questao.swift in Sources */,
 				7C9A8FF72C1A269300F97C31 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

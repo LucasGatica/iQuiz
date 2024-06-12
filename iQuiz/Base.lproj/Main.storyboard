@@ -66,10 +66,80 @@
                     <view key="view" contentMode="scaleToFill" id="AUO-tR-ADS">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mnv-o6-xyQ">
+                                <rect key="frame" x="64" y="311" width="262" height="62"/>
+                                <color key="backgroundColor" name="maincolor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="S6t-8z-ZLw"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 01"/>
+                                <connections>
+                                    <action selector="RespostaBotaoPressionado:" destination="KXf-dH-vbY" eventType="touchUpInside" id="Z4H-cI-Aad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EuV-a3-iK9">
+                                <rect key="frame" x="64" y="405" width="262" height="62"/>
+                                <color key="backgroundColor" name="maincolor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="43Z-uy-kHA"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 01"/>
+                                <connections>
+                                    <action selector="RespostaBotaoPressionado:" destination="KXf-dH-vbY" eventType="touchUpInside" id="7aN-yt-g3K"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tituolo da questao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8de-BI-QiB">
+                                <rect key="frame" x="64" y="203" width="262" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3c7-w7-1Pe">
+                                <rect key="frame" x="64" y="499" width="262" height="62"/>
+                                <color key="backgroundColor" name="maincolor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="Ruc-mN-bWF"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Resposta 01"/>
+                                <connections>
+                                    <action selector="RespostaBotaoPressionado:" destination="KXf-dH-vbY" eventType="touchUpInside" id="NBQ-sd-blw"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ly2-4p-K0p"/>
                         <color key="backgroundColor" name="bgcolor"/>
+                        <constraints>
+                            <constraint firstItem="3c7-w7-1Pe" firstAttribute="top" secondItem="EuV-a3-iK9" secondAttribute="bottom" constant="40" id="84h-4V-s3v"/>
+                            <constraint firstItem="EuV-a3-iK9" firstAttribute="top" secondItem="Mnv-o6-xyQ" secondAttribute="bottom" constant="40" id="9Wi-Rs-Qob"/>
+                            <constraint firstItem="ly2-4p-K0p" firstAttribute="trailing" secondItem="EuV-a3-iK9" secondAttribute="trailing" constant="64" id="Bfm-6m-E1o"/>
+                            <constraint firstItem="ly2-4p-K0p" firstAttribute="trailing" secondItem="8de-BI-QiB" secondAttribute="trailing" constant="64" id="DMY-lI-H41"/>
+                            <constraint firstItem="3c7-w7-1Pe" firstAttribute="top" secondItem="EuV-a3-iK9" secondAttribute="bottom" constant="32" id="GBo-sk-4WF"/>
+                            <constraint firstItem="ly2-4p-K0p" firstAttribute="trailing" secondItem="3c7-w7-1Pe" secondAttribute="trailing" constant="64" id="Hko-jr-2zY"/>
+                            <constraint firstItem="ly2-4p-K0p" firstAttribute="trailing" secondItem="Mnv-o6-xyQ" secondAttribute="trailing" constant="64" id="Thi-Jn-Xz3"/>
+                            <constraint firstItem="8de-BI-QiB" firstAttribute="leading" secondItem="ly2-4p-K0p" secondAttribute="leading" constant="64" id="fK0-dZ-Wgp"/>
+                            <constraint firstItem="ly2-4p-K0p" firstAttribute="bottom" secondItem="3c7-w7-1Pe" secondAttribute="bottom" constant="249" id="i3c-oZ-nyf"/>
+                            <constraint firstItem="8de-BI-QiB" firstAttribute="top" secondItem="ly2-4p-K0p" secondAttribute="top" constant="112" id="ia0-gc-Fx4"/>
+                            <constraint firstItem="3c7-w7-1Pe" firstAttribute="leading" secondItem="ly2-4p-K0p" secondAttribute="leading" constant="64" id="nwY-ZH-2U9"/>
+                            <constraint firstItem="EuV-a3-iK9" firstAttribute="leading" secondItem="ly2-4p-K0p" secondAttribute="leading" constant="64" id="oxv-yI-nXU"/>
+                            <constraint firstItem="EuV-a3-iK9" firstAttribute="top" secondItem="Mnv-o6-xyQ" secondAttribute="bottom" constant="32" id="r8X-ET-oEn"/>
+                            <constraint firstItem="Mnv-o6-xyQ" firstAttribute="top" secondItem="8de-BI-QiB" secondAttribute="bottom" constant="72" id="vRb-Mo-ptd"/>
+                            <constraint firstItem="Mnv-o6-xyQ" firstAttribute="leading" secondItem="ly2-4p-K0p" secondAttribute="leading" constant="64" id="vgU-es-HbK"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hiX-kE-3qA"/>
+                    <connections>
+                        <outlet property="tituloQuestaoLabel" destination="8de-BI-QiB" id="7FG-sC-3gb"/>
+                        <outletCollection property="respostas" destination="Mnv-o6-xyQ" collectionClass="NSMutableArray" id="aRw-m5-mAW"/>
+                        <outletCollection property="respostas" destination="EuV-a3-iK9" collectionClass="NSMutableArray" id="eoO-1U-Clx"/>
+                        <outletCollection property="respostas" destination="3c7-w7-1Pe" collectionClass="NSMutableArray" id="Tuk-sN-2BV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Th6-n5-a0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -104,6 +174,9 @@
         </namedColor>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
